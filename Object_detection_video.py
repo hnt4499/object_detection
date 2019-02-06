@@ -2,7 +2,7 @@
 #
 # Author: Evan Juras
 # Date: 1/16/18
-# Description: 
+# Description:
 # This program uses a TensorFlow-trained classifier to perform object detection.
 # It loads the classifier uses it to perform object detection on a video.
 # It draws boxes and scores around the objects of interest in each frame
@@ -32,7 +32,7 @@ from utils import visualization_utils as vis_util
 
 # Name of the directory containing the object detection module we're using
 MODEL_NAME = 'inference_graph'
-VIDEO_NAME = 'test.mov'
+VIDEO_NAME = 'raccoon_1.mp4'
 
 # Grab path to current working directory
 CWD_PATH = os.getcwd()
